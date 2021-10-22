@@ -1,0 +1,14 @@
+body {
+    background: #ff31d6;
+    background: linear-gradient(90deg, rgba(255,49,214,1) 0%, rgba(17,56,148,1) 100%); 
+}
+.bg-propio {
+    background-image: url("../img/estudiantes.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.btn-dark:hover{
+    color: #ff31d6;
+    font-weight: 900;
+}
