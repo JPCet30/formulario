@@ -69,3 +69,43 @@ function cambiarContenido() {
     parrafo.innerHTML="Mi perro es muy gruñon";
 
 }
+
+
+
+
+var lasP = document.getElementsByTagName("p");
+
+var cantidad = lasP.length;
+for (var i = 0; i < cantidad; i++) {
+    status = lasP[i].getAttribute("class");
+    if(status!=="null"){
+        console.log(status);
+    }
+}
+
+
+//alert("Hay " + num + " <p> elementos en este documento");
+
+
+
+/*
+document.addEventListener('keydown', (event) => {
+    const keyName = event.key;
+    alert('keydown event\n\n' + 'key: ' + keyName);
+  });
+*/
+/*  
+document.addEventListener('keydown',lalala)
+
+function lalala(event){
+    const nombreTecla = event.key;
+    alert('Se presiono \n\n' + 'tecla: ' + nombreTecla);
+}*/
+
+
+
+document.getElementById('btn2').addEventListener("click", () => {
+    document.getElementById('eltexto').select();
+    document.execCommand("copy");
+    alert("Código copiado al portapapeles");
+});

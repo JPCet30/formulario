@@ -1,0 +1,21 @@
+:root{
+    --color-texto: #ccc;
+}
+
+body {
+    --nombre_variable: yellow;
+    background-color: var(--nombre_variable);
+}
+
+h1 {
+    color:var(--nombre_variable);
+}
+.titulo {
+    color: var(--color-texto);
+}
+.subtitulo {
+    color: var(--color-texto);
+}
+footer {
+    border: 5px solid var(--color-texto);
+}
