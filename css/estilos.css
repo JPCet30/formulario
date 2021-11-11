@@ -1,22 +1,42 @@
 body {
-    background: #ff31d6;
-    background: linear-gradient(90deg, rgba(255,49,214,1) 0%, rgba(17,56,148,1) 100%); 
+  background: #ff31d6;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 49, 214, 1) 0%,
+    rgba(17, 56, 148, 1) 100%
+  );
 }
 .bg-propio {
-    background-image: url("../img/estudiantes.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../img/estudiantes.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.btn-dark:hover{
-    color: #ff31d6;
-    font-weight: 900;
+.btn-dark:hover {
+  color: #ff31d6;
+  font-weight: 900;
 }
 
 .rojo {
-    color: red;
+  color: red;
 }
 
 .verde {
-    color:green;
+  color: green;
+}
+/*
+.imgs {
+    height: 300px;
+}*/
+
+.carousel .carousel-item {
+  height: 450px;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: -250px;
+  left: 0px;
+  /*
+      min-height: 30px;*/
 }
