@@ -1,0 +1,35 @@
+/* 
+Comentario en CSS
+selector {
+    propiedad: valor;
+}
+*/
+/* Selector de etiqueta */
+h1 {
+    color: rgb(146, 58, 58);
+}
+/* Selector por id #nombre-propiedad */
+#parrafo {
+    color: chartreuse;
+    font-size: 2em;
+} 
+/* Selector por clases .nombre-clase */
+.prueba {
+    color:darkgoldenrod;
+}
+.tabla {
+    width: 500px;
+    height: 250px;
+    background-color: darkkhaki;
+    margin: 0 auto; /* margenes 0 top-bottom auto left-right */
+    border: 2px solid #000;
+}
+
+.tabla th {
+    font-size: 18px;
+    text-align: center;
+}
+
+.tabla td {
+    border: 2px solid #000;
+}
