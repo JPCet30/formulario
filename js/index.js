@@ -41,7 +41,7 @@ function sumar(){
 
 let a =  document.getElementById('numero2').value;
 let b = document.getElementById('numero1').value;
-
+console.log(b);
 var producto = 0;
 const btnb = document.getElementById('btn-suma');
 btnb.addEventListener('click',hacerClic);
